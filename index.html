@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ubereats restaurants</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script defer src="app.js"></script>
+  </head>
+
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-logo">
+          <a href="restaurants.html">
+            <img src="img/logos/logo.svg" alt="logo" class="logo" />
+          </a>
+        </div>
+
+        <div class="nav-user">
+          <a href="#" class="button">Log In</a>
+          <a href="#" class="cart">
+            <img src="img/logos/basket.svg" alt="cart" />
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+
+    <!-- main -->
+    <!-- search -->
+    <div class="search-container">
+      <input
+        class="searchfield"
+        type="search"
+        id="search"
+        name="search"
+        placeholder="Search by restaurants and cuisines"
+      />
+    </div>
+    <!-- end of search -->
+
+    <!-- cards -->
+    <section class="container">
+      <h3 class="cards-header">Restaurants in your city</h3>
+      <div class="restaurants-container">
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo.jpg"
+              alt="McDonald's"
+            />
+          </div>
+          <h4 class="name">McDonald's</h4>
+          <h6 class="cuisine">₽₽ • Burgers</h6>
+          <p class="card-time">25 - 35 min</p>
+        </a>
+
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo copy 2.jpg"
+              alt="DimSum & Co"
+            />
+          </div>
+          <h4 class="name">DimSum & Co</h4>
+          <h6 class="cuisine">₽ • Japanese • Chinese • Asian</h6>
+          <p class="card-time">40 - 50 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo copy.jpg"
+              alt="DvigOK"
+            />
+          </div>
+          <h4 class="name">DvigOK</h4>
+          <h6 class="cuisine">₽ • American • European</h6>
+          <p class="card-time">35 - 45 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/95b745f6ce6a45903c3ed254afd72e46-w550-27 copy 2.jpg"
+              alt="Nya"
+            />
+          </div>
+          <h4 class="name">Nya</h4>
+          <h6 class="cuisine">₽₽ • Vietnamese</h6>
+          <p class="card-time">30 - 40 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo copy 4.jpg"
+              alt="Dzy Point"
+            />
+          </div>
+          <h4 class="name">Dzy Point</h4>
+          <h6 class="cuisine">₽₽ • Vietnamese</h6>
+          <p class="card-time">40 - 50 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/95b745f6ce6a45903c3ed254afd72e46-w550-27 copy.jpg"
+              alt="Cinnabon"
+            />
+          </div>
+          <h4 class="name">Cinnabon</h4>
+          <h6 class="cuisine">₽ • Pastries • Desserts • Cupcakes</h6>
+          <p class="card-time">25 - 35 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo copy 3.jpg"
+              alt="PIZZELOVE"
+            />
+          </div>
+          <h4 class="name">PIZZELOVE</h4>
+          <h6 class="cuisine">₽₽ • Pizza</h6>
+          <p class="card-time">15 - 25 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/photo copy 5.jpg"
+              alt="U Cafe"
+            />
+          </div>
+          <h4 class="name">U Cafe</h4>
+          <h6 class="cuisine">₽₽ • Japanese</h6>
+          <p class="card-time">25 - 35 min</p>
+        </a>
+        <a href="single-restaurant.html" class="restaurant-card">
+          <div class="img-container">
+            <img
+              class="restaurant-img"
+              src="img/restaurants/95b745f6ce6a45903c3ed254afd72e46-w550-27.jpg"
+              alt="Bar BQ Cafe"
+            />
+          </div>
+          <h4 class="name">Bar BQ Cafe</h4>
+          <h6 class="cuisine">₽₽₽ • European</h6>
+          <p class="card-time">30 - 40 min</p>
+        </a>
+      </div>
+    </section>
+    <!-- end of cards -->
+    <!-- end of main -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <a href="restaurants.html">
+            <img src="img/logos/white-logo.svg" alt="logo" />
+          </a>
+        </div>
+        <hr class="footer-line" />
+        <div class="footer-columns">
+          <div class="footer-column">
+            <div class="language-selector-container">
+              <img src="img/logos/world.svg" alt="world" />
+              <select name="select" class="language-selector" id="">
+                <option value="English" selected>English</option>
+                <option value="Russian">Русский</option>
+              </select>
+            </div>
+            <div class="footer-link">
+              <a href="" class="hashtag"> UberEats </a>
+            </div>
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank"
+                ><img src="img/logos/facebook.svg" alt="facebook"
+              /></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><img src="img/logos/twitter.svg" alt="twitter"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="img/logos/instagram.svg" alt="instagram"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-link">
+              <a href="">About UberEats</a>
+            </div>
+            <div class="footer-link">
+              <a href="">Become a delivery partner</a>
+            </div>
+            <div class="footer-link">
+              <a href="">Become a restaurant partner</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-link">
+              <a href="">All cities</a>
+            </div>
+            <div class="footer-link">
+              <a href="">Prices</a>
+            </div>
+            <div class="footer-link">
+              <a href="">Help</a>
+            </div>
+            <div class="footer-link">
+              <a href="">FAQ</a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-line" />
+        <div class="footer-apps">
+          <a href="https://www.apple.com/ru/app-store/" target="_blank">
+            <img
+              src="img/logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+              alt="app-store"
+            />
+          </a>
+          <a href="https://play.google.com/store" target="_blank">
+            <img
+              src="img/logos/en_badge_web_generic-cf6dad406f.png"
+              alt="google-play"
+            />
+          </a>
+        </div>
+        <hr class="footer-line" />
+        <div class="copyright">
+          <div class="footer-link">
+            <a href="">© 2017 Uber Technologies Inc.</a>
+          </div>
+          <div class="footer-link">
+            <a href="">Privacy policy</a>
+          </div>
+          <div class="footer-link">
+            <a href="">Terms of use</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="to-top-button" id="toTop" onclick="topFunction()">
+        <a class="“go-to-top”"><img src="img/logos/btn-up.svg" /></a>
+      </div>
+    </footer>
+  </body>
+</html>
