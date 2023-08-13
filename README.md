@@ -24,9 +24,9 @@ https://ubereats-restaurant.netlify.app/
 
 > ###### RESTAURANTS
 
-![Ubereats-restaurants](https://github.com/JuliaCMint/ubereats-restaurant/assets/105377899/7e051ca0-4387-45b1-9c86-db522e9019b7)
+![Ubereats-restaurants](https://github.com/JuliaCMint/ubereats-restaurant/assets/105377899/6b46ccc4-1e9c-409e-adae-3f716ee22f7f)
 
 
 > ###### MENU
-![Ubereats-restaurants-menu](https://github.com/JuliaCMint/ubereats-restaurant/assets/105377899/ac7021a2-3d5e-48cb-ad78-979fa27dfc64)
 
+![Ubereats-restaurants-menu](https://github.com/JuliaCMint/ubereats-restaurant/assets/105377899/fe647150-9e7a-4eff-bacc-2e522003f23e)
